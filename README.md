@@ -1,9 +1,5 @@
-# Usynlig-Nynorsk-Oversetter
-Et verktøy til å oversette nynorsk tekst til bokmål med ett tastetrykk.
+# Usynlig Nynorsk Oversetter
+Et enkelt Python skript som oversetter utklippstavlen din til Nynorsk. Fungerer ideelt med AutoHotKey slik at man kan aktivere skriptet ved et enkelt tastetrykk. Skriptet fungerer som en webscraper og er avhengig av åpent internett.
+## Installasjon og Bruk
 
-## Kompabilitet
-Dette verktøyet er utviklet for Windows 10 eller nyere, men fungerer på alle maskiner som kan kjøre AutoHotKey.
-
-## Du trenger
-- [AutoHotKey](https://www.autohotkey.com/download/), programmet kan bli feilaktig oppdaget som virus av Windows Defender, selv om programmet er helt trygt å installere.
-- 
+## Eksterne Pakker
