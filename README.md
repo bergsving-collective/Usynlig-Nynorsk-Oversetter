@@ -6,10 +6,10 @@ Et enkelt Python skript som oversetter utklippstavlen din til Nynorsk. Fungerer 
 
 - Vi er også avhengig av to eksterne pakker. Åpne et terminalvindu og installer disse:
 ```
-pip install selenium
-pip install pyperclip
+python -m pip install selenium
+python -m pip install pyperclip
 ```
-Du kan nå kjøre [skriptet](https://github.com/cheval-constipe/Usynlig-Nynorsk-Oversetter/blob/main/script.py).
+Du kan nå kjøre [skriptet](https://github.com/cheval-constipe/Usynlig-Nynorsk-Oversetter/blob/main/script.py). Når skriptet kjører dukker det opp et svart terminalvindu som lukker seg igjen etter et øyeblikk. Da er utklippstavlen din oversatt (eller noe har gått galt). Prøv selv!
 
 ### Med AutoHotKey
 Man kan kjøre skriptet ved et tastetrykk med [AutoHotKey](https://www.autohotkey.com).
