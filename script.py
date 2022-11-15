@@ -19,3 +19,6 @@ pyperclip.copy(elem)
 
 # Lukk vindu
 driver.close()
+
+# Lukk terminalvindu
+os.kill(os.getppid(), 1)
