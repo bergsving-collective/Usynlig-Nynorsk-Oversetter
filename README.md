@@ -14,7 +14,7 @@ Du kan nå kjøre [skriptet](https://github.com/cheval-constipe/Usynlig-Nynorsk-
 ### Med AutoHotKey
 Man kan kjøre skriptet ved et tastetrykk med [AutoHotKey](https://www.autohotkey.com).
 - Installer programmet
-- Last ned [denne filen](https://github.com/cheval-constipe/Usynlig-Nynorsk-Oversetter/blob/dev-1/oversett.ahk) og plasser i samme mappe som Python-skriptet.
+- Last ned [denne filen](https://github.com/cheval-constipe/Usynlig-Nynorsk-Oversetter/blob/main/oversett.ahk) og plasser i samme mappe som Python-skriptet.
 - Kjør med AutoHotKey.
 
 Du skal nå kunne starte skriptet med Home knappen. Du kan endre `Home` til hvilken tast du ønsker. Du kan finne en liste med forskjellige taster [her](https://www.autohotkey.com/docs/KeyList.htm).
