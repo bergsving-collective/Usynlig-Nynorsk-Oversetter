@@ -11,6 +11,8 @@ python -m pip install pyperclip
 ```
 Du kan nå kjøre [skriptet](https://github.com/cheval-constipe/Usynlig-Nynorsk-Oversetter/blob/main/script.py). Når skriptet kjører dukker det opp et svart terminalvindu som lukker seg igjen etter et øyeblikk. Da er utklippstavlen din oversatt (eller noe har gått galt). Prøv selv!
 
+**OBS!** Ved å bruke oversetteren deler du innholdet i utklippstavlen med Apertium.
+
 ### Med AutoHotKey
 Man kan kjøre skriptet ved et tastetrykk med [AutoHotKey](https://www.autohotkey.com).
 - Installer programmet
