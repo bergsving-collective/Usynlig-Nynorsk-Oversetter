@@ -1,5 +1,5 @@
 # Usynlig Nynorsk Oversetter
-Et enkelt Python skript som oversetter utklippstavlen din til Nynorsk. Fungerer ideelt med AutoHotKey slik at man kan aktivere skriptet ved et enkelt tastetrykk. Skriptet sender API call til apertium.org som returnerer oversatt tekst. Dermed er man avhengi
+Et enkelt Python skript som oversetter utklippstavlen din til Nynorsk. Fungerer ideelt med AutoHotKey slik at man kan aktivere skriptet ved et enkelt tastetrykk. Skriptet sender API call til apertium.org som returnerer oversatt tekst. Dermed er man avhengig av åpent nett.
 ## Installasjon og Bruk
 - Sørg for at du har den nyeste versjonen av [Python 3](https://www.python.org/downloads/).
 
