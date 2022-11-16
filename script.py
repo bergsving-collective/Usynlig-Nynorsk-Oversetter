@@ -1,24 +1,19 @@
 # Importer pakker
-from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.common.by import By
+import json
+import requests
 import pyperclip
+import os
 
 # Hent utklippstavle
-i = pyperclip.paste()
+t = pyperclip.paste()
 
-# Start headless FireFox vindu
-options = Options()
-options.headless = True
-driver = webdriver.Firefox(options=options)
-driver.get("https://www.apertium.org/index.nob.html#?dir=nob-nno&q="+str(i))
+# Send API request
+r = requests.get("https://beta.apertium.org/apy/translate",
+                 params={"langpair": "nob|nno", "q": t})
 
-# Hent oversatt tekst og kopier
-elem = driver.find_elements(By.TAG_NAME, "textarea")[1].text
-pyperclip.copy(elem)
+final = json.loads(r.text)["responseData"]["translatedText"]
 
-# Lukk vindu
-driver.close()
+pyperclip.copy(final)
 
 # Lukk terminalvindu
 os.kill(os.getppid(), 1)
