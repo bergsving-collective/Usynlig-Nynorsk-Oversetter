@@ -10,7 +10,7 @@ Et enkelt Python skript som oversetter utklippstavlen din til Nynorsk. Fungerer 
 python -m pip install pyperclip
 python -m pip install requests
 ```
-Du kan nå kjøre `script.py`. Når skriptet kjører dukker det opp et svart terminalvindu som lukker seg igjen etter et øyeblikk. Da er utklippstavlen din oversatt (eller noe har gått galt). Prøv selv!
+Du kan nå kjøre `script.py`. Når skriptet kjører dukker det opp et svart terminalvindu som lukker seg igjen etter et øyeblikk. Da er utklippstavlen din oversatt (eller noe har gått galt). Prøv selv! Apertium markerer ord som ikke kan oversettes med * . Se gjennom oversettelsen etter disse før du leverer.
 
 **OBS!** Ved å bruke oversetteren deler du innholdet i utklippstavlen med Apertium.
 
