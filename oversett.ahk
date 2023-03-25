@@ -1,1 +1,1 @@
-Home::Run, %ComSpec% /k python script.py
+Home::Run, %ComSpec% /k python script.py, , Hide
